@@ -1,6 +1,6 @@
 ## Introducción
 
-Ha pasado tiempo desde tus ultimas aventuras, y es hora de retomar tu trabajo como reportero. Tu ex jefe te mando información sobre una extraña isla, la cual quiere que sea su proxima noticia. Al ir llegando a la isla algo extraño sucede en la nave y te estrellas en una extraña aldea, no son agresivos y se dicen llamar grumñecos. Dicen que tienen mucha hambre y tu deber es alimentarlos con unos seres llamados bichosnacks(Son insectos que tienen forma de comida del mundo común del cual vienes). Cuando consumen uno de estos bichosnacks les cambia una parte del cuerpo a selección y se reemplaza por el alimento que representa el bichosnack.
+Ha pasado tiempo desde tus ultimas aventuras, y es hora de retomar tu trabajo como reportero. Tu ex jefe te mando información sobre una extraña isla, en esta  la cual quiere que sea su proxima noticia. Al ir llegando a la isla algo extraño sucede en la nave y te estrellas en una extraña aldea. Sus habitantes no son agresivos y se dicen llamar grumñecos. Dicen que tienen mucha hambre y tu deber es alimentarlos con unos seres llamados bichosnacks (insectos que tienen forma de comida del mundo del que vienes). Cuando consumen uno de estos bichosnacks, les cambia una parte del cuerpo a selección y se reemplaza por el alimento que representa el bichosnack.
 
 ## Objetivo
 
