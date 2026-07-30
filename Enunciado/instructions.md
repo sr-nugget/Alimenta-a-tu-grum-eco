@@ -1,22 +1,39 @@
 ## Introducción
 
-En este apartado se espera que escribas una breve introducción a la pregunta, explicando de qué se trata a grandes rasgos. También puedes incluir un pequeño 'lore' asociado a la pregunta.
+Ha pasado tiempo desde tus ultimas aventuras, y es hora de retomar tu trabajo como reportero. Tu ex jefe te mando información sobre una extraña isla, la cual quiere que sea su proxima noticia. Al ir llegando a la isla algo extraño sucede en la nave y te estrellas en una extraña aldea, no son agresivos y se dicen llamar grumñecos. Dicen que tienen mucha hambre y tu deber es alimentarlos con unos seres llamados bichosnacks(Son insectos que tienen forma de comida del mundo común del cual vienes). Cuando consumen uno de estos bichosnacks les cambia una parte del cuerpo a selección y se reemplaza por el alimento que representa el bichosnack.
 
 ## Objetivo
 
-Acá se debe explicar que hay que hacer en la pregunta, si un alumno leyese este apartado debería poder realizar un código que entregue el mismo output que el código solución a partir de un input dado. Es importante que no se den instrucciones tan explícitas, solo lo esencial para poder desarrollar la pregunta. Es muy importante que los alumnos tengan que idear por su cuenta como llegar a una solución al problema.
+Se te entregaran 3 inputs:
 
+1. El nombre del grumñeco al cual alimentarás (str).
+2. Un str separado por comas con las formas de las partes del cuerpo actuales en el siguiente orden: "cabeza,brazo izquierdo,brazo derecho,pierna izquierda,pierna derecha".
+3. Un str separado por comas con el bichosnack que consume, la parte que cambiará y el alimento que representa, en el formato: "bichosnack,parte_que_cambia,alimento".
+
+Lo que deberas hacer es:
+
+1. Imprimir el mensaje de alimentación con la siguiente estructura:
+"[grumñeco] comio un(a) [bichosnack] y su [parte_que_cambia] ahora es un(a) [alimento]"
+2. Imprimir el estado final de cada parte del cuerpo en el orden dado:
+Si la parte no cambió y dice "Normal", debes imprimir:" Su [parte_del_cuerpo] sigue igual"
+En caso contrario, debes imprimir: "Su [parte_del_cuerpo] es un(a) [alimento]"
 ## Ejemplo
-
-Acá se debe poner un ejemplo de input y el output esperado para dicho input, junto con una breve explicación de por qué se llega a ese output.
 
 #### Input
 ```py
-
+    Gumno   
+    Papa frita,Normal,Cafe,Nugget,Normal
+    Big Buger,brazo izquierdo,Hamburguesa
 ```
 
 #### Output
-```
-
+```py 
+    Gumno comio un(a) Big Burger y su brazo izquierdo ahora es un(a) hamburguesa
+    Su cabeza es un(a) papa frita
+    Su brazo izquierdo es un(a) hamburguesa
+    Su brazo derecho es un(a) cafe
+    Su pierna izquierda es un(a) nugget
+    Su pierna derecha sigue igual
 ```
 **Explicación:** 
+Gumno tenía el brazo izquierdo en estado Normal. Al comer una Big Burger, su brazo izquierdo cambioa la forma de una hamburguesa. Las demás partes conservan su valor inicial: la pierna derecha se mantiene en Normal (por lo que indica que sigue igual) y el resto conserva sus alimentos respectivos.
